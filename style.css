@@ -1,0 +1,26 @@
+           body {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               width: auto;
+               margin: auto;
+           }
+           
+           .wrapper {
+               margin-top: 5%;
+               width: 100%;
+               display: flex;
+               justify-content: space-evenly;
+               align-items: center;
+           }
+           
+           .canvas {
+               /*grid-template-columns property is being added in script*/
+               display: grid;
+               width: 450px;
+               height: 450px;
+           }
+           
+           .canvasElement {
+               border: 1px solid black;
+           }
